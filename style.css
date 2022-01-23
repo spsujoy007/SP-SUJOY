@@ -1,0 +1,376 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:  arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+div#headside {
+    background: #00ffad;
+    height: 33px;
+	width:100%;
+	position: fixed;
+}
+
+div#leftside {
+    float: left;
+	font-weight: bold;
+    margin-top: -7px;
+    margin-left: -15px;
+}
+div#leftside li {
+    float: left;
+	text-transform:uppercase;
+    list-style: none;
+    margin-right: 15px;
+	margin-top: -1px;
+    font-size: 15px;
+    color: black;
+}
+div#leftside i {
+    margin-right: 4px;
+}
+div#socialside {
+    float: right;
+    margin-right: 0%;
+    margin-top: -11px;
+	margin-right:2%;
+}
+
+div#socialside a {
+    text-decoration: none;
+    color: white;
+}
+
+div#socialside li {
+    list-style: none;
+    float: left;
+    margin-right: 17px;
+    font-size: 21px;
+	animation: fontroll 7s infinite;
+}
+@keyframes fontroll{
+	0%{
+		transform: none;
+		
+	}
+	100%{
+		transform: rotate(360deg) ;
+	}
+}
+div#socialside i:hover {
+    transition: 0.9s;
+    transform: rotate(360deg) scale(1.3);
+}
+img.logopng {
+    width: 44px;
+    margin-top: 4px;
+    border: 7px solid white;
+    border-radius: 1000px;
+    margin-left: 20%;
+	animation: rotation 10s infinite;
+}
+@keyframes rotation{
+	0%{
+		
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+
+.logoside {
+    height: 66px;
+	float: left;
+}
+.menubar a {
+    text-decoration: none;
+	color:white;
+}
+
+.menubar ul {
+    list-style: none;
+	margin-right: -1px;
+    float: right;
+}
+ul.menu li {
+    float: left;
+    margin-right: 1px;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 23px 23px 23px;
+    margin-top: -16px;
+    background: #1ad89b;
+	font-weight: bold;
+}
+
+secondside {
+    height: 66px;
+    background: #1ad89b;
+}
+.secondside {
+    height: 66px;
+    background: #00000075;
+    position: absolute;
+    width: 100%;
+    margin-top: 33px;
+}
+ul.menu li:hover {
+    background: #2d6a39;
+    transform: scale(1.2);
+	cursor:pointer;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+ul.menu li:active{
+	background: #000000;
+    cursor: pointer;
+	transform: rotate(10deg);
+}
+ul.menu li {
+    transition: 0.6s;
+}
+#pic12{
+	animation
+}
+
+.backpic {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#23bf5abd, #94ff0773), url(https://news.cgtn.com/news/2020-06-25/Live-Paris-Eiffel-Tower-reopens-to-public-RBwqXmNekU/img/db13af7526d741b7a4f10475b2f25796/db13af7526d741b7a4f10475b2f25796.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+	background-position: center;
+}
+.profilepic img {
+    width: 275px;
+	height:278px;
+    border-radius: 10000px;
+    border: 8px solid white;
+    background-position: center;
+	margin-left: -6px;
+	transition:6s;
+}
+
+
+.profilepic {
+    margin-top: -328px;
+    margin-left: 44px;
+}
+h1.name {
+    font-family: vrinda;
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    width: 510px;
+    border-left: 11px solid white;
+    padding-left: 29px;
+    border-radius: 1px;
+    animation: textanimation 6s steps(20) infinite;
+    white-space: pre;
+    overflow: hidden;
+	margin-top:13%;
+}
+@keyframes textanimation {
+	0%{
+		width:0ch;
+	}
+	100%{
+		width: 20ch;
+	}
+}
+.nameorbio {
+    margin-top: -26%;
+    margin-left: 395px;
+    float: left;
+}
+h2.who {
+    text-transform: uppercase;
+    width: 485px;
+    color: white;
+    padding-left: 43px;
+    margin-top: 70px;
+}
+.mylogo {
+    width: 440px;
+		transition:0.9s;
+}
+.logoandbio {
+    margin-top: 2%;
+    background: black;
+    height: 500px;
+    width: 70%;
+    padding-left: 30%;
+}
+h2.biowithlogo {
+    font-family: vrinda;
+    color:#fdfa00;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.singlebox1 i {
+    margin-top: 15px;
+    background: #00ffad;
+    font-size: 32px;
+    padding: 10px;
+    color: white;
+    border-radius: 80px;
+	transition:0.8s;
+}
+
+.hedlines {
+    text-transform: uppercase;
+    color: black;
+}
+.pera {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+	color: #000000b3;
+}
+.singlebox1 i {
+    background: #00ffad;
+    font-size: 32px;
+    padding: 10px;
+    color: white;
+    border-radius: 80px;
+    margin-top: 60px;
+	transition:0.9s;
+}
+.logoandbio:hover img {
+    width: 400px;
+}
+.logoandbio a {
+    text-decoration: none;
+}
+.allbox {
+    float: left;
+    width: 270px;
+    text-align: center;
+	    margin-left: 51px;
+}
+.container {
+    width: 100%;
+    background-image: linear-gradient(45deg, white, #115a10ba) ,url(img/bgwl.png);
+    margin-left: 0%;
+    background-size: cover;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.singlebox1:hover i {
+    transform: rotateZ(360deg);
+	background: black;
+	color:white;
+}
+.container2{
+	margin: 40px 60px 0;
+	width:500px;
+}
+.container2 ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 40px;
+	position:relative;
+}
+
+.level li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #336d44;
+    margin-top: 19px;
+    border-radius: 100px;
+}
+li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #00ffad;
+    margin-top: 19px;
+    border-radius: 100px;
+	animation-duration:.7s;
+	animation-timing-function:cubic-bezier(0.3, 0.93, 0.33, 0.05);
+	animation-fill-mode: forwards;
+}
+li.html:after {
+	animation-name:html;
+}
+
+@keyframes html {
+	to {
+		width: 90%;
+	}
+}
+
+li.css:after {
+	animation-name: css;
+}
+
+@keyframes css {
+	to {
+		width: 80%;
+	}
+}
+
+li.java:after {
+	animation-name:java;
+}
+
+@keyframes java {
+	to {
+		width: 70%;
+	}
+}
+li.jequ:after {
+	animation-name:jequ;
+}
+
+@keyframes jequ {
+	to {
+		width:80%;
+	}
+}
+
+li.php:after {
+	animation-name:php;
+}
+
+@keyframes php {
+	to {
+		width:90%;
+	}
+}
+section#mylevel {
+    background: #272424;
+    width: 100%;
+    float: left;
+    height: 356px;
+}
+
+p.footercontent {font-size: 16px;
+text-align: center;
+text-transform: uppercase;
+padding:5px;}
+.footer {
+    background: #00ffad;
+    width: 100%;
+}
+
+
+
+
